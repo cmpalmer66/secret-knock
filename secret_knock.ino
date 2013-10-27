@@ -6,14 +6,17 @@
 #define DEBUG false
 
 /* User Config Block */
-float secretKey[]  = {1, .5, .5, 1, 2, 1};                       // Shave and a haircut
+
+float secretKey[]  = {1, 1, .5, .5, .5, 1, .5, 1, .5, .5, .5, .5, 1, 1, .5, .5, .5, 1, .5, .5, .5, 1};  // Bad Romance 
+//float secretKey[]  = {1, 1.5, .5, 1, 1, 1.5, .5};                 // Auld Lang Syne
+//float secretKey[]  = {1, .5, .5, 1, 2, 1};                        // Shave and a haircut
 // float secretKey[]  = {1, 2, 2, 1};                               // Terminator
 // float secretKey[]  = {1, 1, .5, 1.5, 1, 1, 1, 1.5};              // Supermodel
 // float secretKey[] = {1,1,1,1,.25,.25,.25,1.25,.25,.25,.25 };     // Stayin' alive
 // float secretKey[] = {1,1,1,.666,.333,1,.666,.333};               // Imperial march
 
 int scoreThreshold = 1.0;
-int holdDoorOpenMs = 200;
+int holdDoorOpenMs = 750;
 
 int audioPin = 4;    // Analog input pin for doorbell signal
 int unlockPin = 12;  // Digital output wired to transistor over doorbell
